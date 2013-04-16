@@ -18,6 +18,9 @@
 		C87EF8D91672961600F19AF0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C87EF8D81672961600F19AF0 /* Default-568h@2x.png */; };
 		C87EF8DC1672961600F19AF0 /* WhereamiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C87EF8DB1672961600F19AF0 /* WhereamiViewController.m */; };
 		C87EF8DF1672961600F19AF0 /* WhereamiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C87EF8DD1672961600F19AF0 /* WhereamiViewController.xib */; };
+		C87EF8E61672967200F19AF0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87EF8E51672967200F19AF0 /* CoreLocation.framework */; };
+		C87EF8F01677ED2A00F19AF0 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C87EF8EF1677ED2900F19AF0 /* MapKit.framework */; };
+		C87EF8F31679659200F19AF0 /* BNRMapPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = C87EF8F21679659200F19AF0 /* BNRMapPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,10 @@
 		C87EF8DA1672961600F19AF0 /* WhereamiViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WhereamiViewController.h; sourceTree = "<group>"; };
 		C87EF8DB1672961600F19AF0 /* WhereamiViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WhereamiViewController.m; sourceTree = "<group>"; };
 		C87EF8DE1672961600F19AF0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/WhereamiViewController.xib; sourceTree = "<group>"; };
+		C87EF8E51672967200F19AF0 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		C87EF8EF1677ED2900F19AF0 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		C87EF8F11679659100F19AF0 /* BNRMapPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BNRMapPoint.h; sourceTree = "<group>"; };
+		C87EF8F21679659200F19AF0 /* BNRMapPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BNRMapPoint.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +51,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87EF8F01677ED2A00F19AF0 /* MapKit.framework in Frameworks */,
+				C87EF8E61672967200F19AF0 /* CoreLocation.framework in Frameworks */,
 				C87EF8C31672961600F19AF0 /* UIKit.framework in Frameworks */,
 				C87EF8C51672961600F19AF0 /* Foundation.framework in Frameworks */,
 				C87EF8C71672961600F19AF0 /* CoreGraphics.framework in Frameworks */,
@@ -73,6 +82,8 @@
 		C87EF8C11672961600F19AF0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C87EF8EF1677ED2900F19AF0 /* MapKit.framework */,
+				C87EF8E51672967200F19AF0 /* CoreLocation.framework */,
 				C87EF8C21672961600F19AF0 /* UIKit.framework */,
 				C87EF8C41672961600F19AF0 /* Foundation.framework */,
 				C87EF8C61672961600F19AF0 /* CoreGraphics.framework */,
@@ -87,6 +98,8 @@
 				C87EF8D21672961600F19AF0 /* WhereamiAppDelegate.m */,
 				C87EF8DA1672961600F19AF0 /* WhereamiViewController.h */,
 				C87EF8DB1672961600F19AF0 /* WhereamiViewController.m */,
+				C87EF8F11679659100F19AF0 /* BNRMapPoint.h */,
+				C87EF8F21679659200F19AF0 /* BNRMapPoint.m */,
 				C87EF8DD1672961600F19AF0 /* WhereamiViewController.xib */,
 				C87EF8C91672961600F19AF0 /* Supporting Files */,
 			);
@@ -177,6 +190,7 @@
 				C87EF8CF1672961600F19AF0 /* main.m in Sources */,
 				C87EF8D31672961600F19AF0 /* WhereamiAppDelegate.m in Sources */,
 				C87EF8DC1672961600F19AF0 /* WhereamiViewController.m in Sources */,
+				C87EF8F31679659200F19AF0 /* BNRMapPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
